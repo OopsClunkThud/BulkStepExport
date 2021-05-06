@@ -1,5 +1,7 @@
 #Author-Patrick Owens
-#Description-Reads in a CSV file where the first column is an ID value and the remaining columns are user parameters.\nFor each row in the file the parametric values will be applied to the model and the resulting model output as a STEP file.\nColumn headings that don't match a user parameter are skipped, allowing the file to also contain other values for CFD...
+#Description-Reads in a CSV file where the first column is an ID value and the remaining columns are user parameters.
+#For each row in the file the parametric values will be applied to the model and the resulting model output as a STEP file.
+#Column headings that don't match a user parameter are skipped, allowing the file to also contain other values for CFD...
 
 import adsk.core, adsk.fusion, traceback
 from pathlib import Path
