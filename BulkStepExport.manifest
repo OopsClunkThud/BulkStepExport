@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Patrick Owens",
+	"description":	{
+		"":	"Reads in a CSV file where the first column is an ID value and the remaining columns are user parameters.\nFor each row in the file the parametric values will be applied to the model and the resulting model output as a STEP file.\nColumn headings that don't match a user parameter are skipped, allowing the file to also contain other values for CFD..."
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
